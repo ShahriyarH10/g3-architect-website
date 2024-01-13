@@ -3,6 +3,7 @@
 /* shared styles */
 
 * {
+    margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
     
 }
@@ -148,8 +149,9 @@ main {
 }
 
 .features-img img {
-    height: 90%;
-    margin-left: 90px;
+    height: 800px;
+    width: 700px;
+    /* margin-left: 10px; */
 }
 
 .ten-years-badge {
@@ -217,6 +219,14 @@ main {
     width: 165px;
 }
 
+footer {
+    margin: 200px;
+    padding: 40px 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+
+}
 
 /* responsive media queries */
 
